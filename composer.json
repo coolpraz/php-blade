@@ -1,0 +1,34 @@
+{
+    "name": "coolpraz/php-blade",
+    "description": "The standalone version of Laravel's Blade templating engine for use outside of Laravel.",
+    "keywords": ["laravel", "blade", "template", "view", "render"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prabhat Shahi",
+            "email": "pra_shahi@hotmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/view": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coolpraz\\PhpBlade\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
