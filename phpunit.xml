@@ -10,12 +10,8 @@
          stopOnFailure="false"
 >
     <testsuites>
-        <testsuite name="PHP Blade Feature Tests">
-            <directory suffix="Test.php">./tests/Feature</directory>
-        </testsuite>
-
-        <testsuite name="PHP Blade Unit Tests">
-            <directory suffix="Test.php">./tests/Unit</directory>
+        <testsuite name="PHP Blade Tests">
+            <directory suffix="Test.php">./tests/</directory>
         </testsuite>
     </testsuites>
     <filter>
